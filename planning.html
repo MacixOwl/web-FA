@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <title>Platform - 学业规划</title>
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+</head>
+<script language="javascript" type="text/javascript" 
+src="http://apps.bdimg.com/libs/jquery/1.8.1/jquery.min.js">   
+</script>
+<script type="text/javascript">
+ /* 鼠标特效 */ 
+ var a_idx = 0; jQuery(document).ready(function($) 
+   { $("body").click(function(e) { var a = new Array("¤富强¤", "¤民主¤","¤文明¤", "¤和谐¤", "¤自由¤", "¤平等¤", "¤公正¤" ,"¤法治¤", "¤爱国¤", "¤敬业¤", "¤诚信¤", "¤友善¤"); 
+var $i = $("<span/>").text(a[a_idx]); 
+a_idx = (a_idx + 1) % a.length; var x = e.pageX, y = e.pageY;
+ $i.css({ "z-index": 99, "top": y - 20, "left": x, "position": "absolute", "font-weight": "bold", "color": "#ff6651" }); $("body").append($i); $i.animate({ "top": y - 180, "opacity": 0 }, 1500, function(){ $i.remove(); }); }); });
+ </script>
+   <!-- body -->
+   <body class="main-layout">
+      <a id="top"></a>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+      <!-- header inner -->
+      <div class="header">
+         <div class="header_to d_none">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                     <ul class="lan"><li>From： <img src="images/XJTUlogo.png" alt="#" /></li></ul>
+                  </div>
+                  <div class="col-md-6 col-sm-6 ">
+                     <ul class="social_icon1">
+                        <li>导论[02] 计[06] FYT 2022-01-09</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="text" style=" text-align:center;"><pre><h1>
+         2021秋季《计算机科学与技术导论》-期末大作业</h1></pre></div>
+            <div class="header_bo">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-9 col-sm-7">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item">
+                                 <a class="nav-link" href="index.html"> Home </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="image.html">计算机课程关系图</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="resources.html">专业课参考资料</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="view.html">对CS专业的认识</a>
+                              </li>
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="planning.html">学业规划</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+     
+      <!-- testimonial -->
+      <div id="client"  class="testimonial">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><br>也没有特别的学业规划，只是走一条计算机专业学生可能都会走的路。</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="testimo" class="carousel slide testimonial_Carousel " data-ride="carousel">
+
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption ">
+                        <div class="row">
+                           <div class="col-md-6 offset-md-3">
+                              <div class="test_box">
+                                 <p>本科，学习保持绩点。</p>
+                                 <p>Then</p>
+                                 <p>读研，选定主攻方向。</p>
+                                 <p>Final→</p>
+                                 <p>毕业，社会发光发热。</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </div>
+      <!-- end testimonial -->
+   <div class="text" style=" text-align:center;"><h1></h1><h1></h1><p><a href="#top">▲回到顶部</a></p></div>
+   <div class="text" style=" text-align:center;"><p>Copyright 2022 Feng. All Rights Reserved.</p></div>
+   </body>
+</html>
