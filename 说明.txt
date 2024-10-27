@@ -1,5 +1,0 @@
-（1）自己的内容：①页面内容、②图片、③下载ppt和文档、④定位功能。
-（2）来自网络开源代码：①CSS模板、②鼠标单击彩蛋代码。
-（3）引用链接：
-①站长模板素材-https://sc.chinaz.com/tag_moban/html.html
-②鼠标点击网页空白-https://blog.csdn.net/heifengli6666/article/details/107958877
